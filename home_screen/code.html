@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#7f13ec",
+              "background-light": "#f7f6f8",
+              "background-dark": "#191022",
+            },
+            fontFamily: {
+              display: ["Epilogue"],
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+<style>
+      .bg-hero-image {
+        background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBJ6jiFHzkkNsY3n4llcSXNE5GKgw_9JKqYisxZff9z8qugVXkT-8WDv6P9_3YhVDPX-qpkyUEUBv8k6H8zjp78qkLQTMAdWT_WtfdNdpsbxUdBdqlybf7JBDTMK2K_ddf4wZ8f-cu32jpbB_x7oXsuh_UHBHXAgr-UILh-rhhw8C3TmA9cnohWfoirISqpjlekxMS_uzKH93EJXHtqwH5SnQbyXQGaPB609CSuV2HPu5KzwqQVc1vVW___mr8n6_Xf9TLKK9GxBt-a");
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-700 dark:text-gray-300">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<header class="fixed top-0 left-0 right-0 z-10 flex items-center justify-between bg-background-light/80 p-4 backdrop-blur-sm dark:bg-background-dark/80">
+<h1 class="text-xl font-bold text-gray-900 dark:text-white">Tranças da Ana</h1>
+<button class="rounded p-2 text-gray-900 dark:text-white">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path>
+</svg>
+</button>
+</header>
+<main class="flex-grow pt-16">
+<div class="relative h-96 w-full bg-hero-image bg-cover bg-center">
+<div class="absolute inset-0 bg-black/50"></div>
+<div class="relative z-10 flex h-full flex-col items-center justify-center p-4 text-center text-white">
+<h2 class="text-4xl font-bold">Beleza Afro em Cada Trança</h2>
+</div>
+</div>
+<div class="p-6">
+<p class="mb-6 text-center text-lg text-gray-700 dark:text-gray-300">Descubra a arte das tranças com Ana, onde cada estilo conta uma história de beleza e cultura. Agende sua transformação hoje!</p>
+<div class="flex flex-col gap-4 sm:flex-row sm:justify-center">
+<button class="flex h-12 w-full items-center justify-center rounded-lg bg-primary px-6 text-base font-bold text-white shadow-lg transition-transform hover:scale-105">Agendar</button>
+<button class="flex h-12 w-full items-center justify-center rounded-lg bg-primary/20 px-6 text-base font-bold text-primary transition-colors hover:bg-primary/30 dark:bg-primary/20 dark:hover:bg-primary/30">Ver Serviços</button>
+</div>
+</div>
+</main>
+<footer class="bg-background-light p-6 text-center text-gray-700 dark:bg-background-dark dark:text-gray-300">
+<nav class="mb-6 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-8">
+<a class="hover:text-primary" href="#">Home</a>
+<a class="hover:text-primary" href="#">Sobre mim</a>
+<a class="hover:text-primary" href="#">Serviços</a>
+<a class="hover:text-primary" href="#">Guia de preparação</a>
+<a class="hover:text-primary" href="#">Contato</a>
+</nav>
+<div class="mb-6 flex justify-center gap-6">
+<a class="text-gray-700 hover:text-primary dark:text-gray-300 dark:hover:text-primary" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path>
+</svg>
+</a>
+<a class="text-gray-700 hover:text-primary dark:text-gray-300 dark:hover:text-primary" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"></path>
+</svg>
+</a>
+</div>
+<p class="text-sm">© 2024 Tranças da Ana. Todos os direitos reservados.</p>
+</footer>
+</div>
+
+</body></html>
